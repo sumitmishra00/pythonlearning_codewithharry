@@ -1,4 +1,4 @@
-name = "Sumit is a nice  guy"
+l = [21 , 34 , 67 , 99 ]
 
-print(name.replace("  ", " "))
+print(sum(l))
 

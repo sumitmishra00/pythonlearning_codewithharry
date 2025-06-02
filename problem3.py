@@ -1,3 +1,6 @@
-name = "Sumit is a nice  guy"
+# WAP to check that tuple type cannot changed python
 
-print(name.find("  "))
+a = ( 21, 34 , "Sumit" )
+
+a[2] = "Tummit"
+print(a)
