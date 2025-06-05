@@ -1,6 +1,6 @@
-# WAP to check that tuple type cannot changed python
+s = set()
 
-a = ( 21, 34 , "Sumit" )
+s.add(18)
+s.add("18")
 
-a[2] = "Tummit"
-print(a)
+print(s)

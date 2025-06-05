@@ -1,26 +1,13 @@
-# WAP to enter 7 fruits name in list entered by the user 
+#WAP to create a dictonary of hindi words with values of their in english translation provide the option for user to look it up 
 
-fruits = []
+words = {
 
-f1 = input("enter fruit name: ")
-fruits.append(f1)
+    "Bachao": "Help",
+    "zinda": "Alive",
+    "aurat": "Women",
+    "bhot bada h": "So big "
+}
+w = input("enter your word:")
 
-f2 = input("enter fruit name: ")
-fruits.append(f2)
-
-f3 = input("enter fruit name: ")
-fruits.append(f3)
-
-f4 = input("enter fruit name: ")
-fruits.append(f4)
-
-f5 = input("enter fruit name: ")
-fruits.append(f5)
-
-f6 = input("enter fruit name: ")
-fruits.append(f6)
-
-f7 = input("enter fruit name: ")
-fruits.append(f7)
-
-print(fruits)
+print(words[w])
+    

@@ -1,7 +1,17 @@
-# WAP a program to count the number of zeros the following tuple a=(7,0,8,09)
+d = {}
 
-a = (7 , 0 , 8 , 0 , 9)
+name = input("enter friends name: ")
+lang = input("enter language name: ")
+d.update({name: lang})
+name = input("enter friends name: ")
+lang = input("enter language name: ")
+d.update({name: lang})
+name = input("enter friends name: ")
+lang = input("enter language name: ")
+d.update({name: lang})
+name = input("enter friends name: ")
+lang = input("enter language name: ")
+d.update({name: lang})
 
-n = a.count(0)
+print(d)
 
-print(n)
